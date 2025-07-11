@@ -1,0 +1,43 @@
+# Python bytecode and cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+env/
+
+# Environment variables
+.env
+
+# Project metadata
+*.egg-info/
+
+# Logs
+*.log
+logs/
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# IDE/editor settings
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Jupyter
+.ipynb_checkpoints/
+
+# SQLite or temporary DBs
+*.sqlite3
+*.db
+
+# Model files
+# Do NOT ignore the trained model (it's under 100 MB)
+# models/*.pkl  <-- commented out so we keep your model
+
+# Uncomment the below line to ignore ALL model files again
+# models/
